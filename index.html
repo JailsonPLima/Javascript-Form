@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description" content="descrição do site" />
+	<meta name="keywords" content="palavras, separadas, por, vírgula" />
+	<meta name="author" content="Jailson Lima" />
+
+	<!-- Font -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+	<link rel="stylesheet" href="./css/style.css" />
+
+	<title>Validação de Formulário com JS</title>
+</head>
+<body>
+	<div class="container">
+		<div class="myform__error">
+			<div class="error"></div>
+		</div>
+		<form action="" method="" id="myform" name="form" onsubmit="return validarForm()">
+			<h2 class="myform__title">My Form</h2>
+			<div class="myform__input input--w50">
+				<input class="input input__nome" type="text" name="nome" placeholder="Nome" />
+			</div>
+			<div class="myform__input input--w50">
+				<input class="input input__sobrenome" type="text" name="sobrenome" placeholder="Sobrenome" />
+			</div>
+			<div class="myform__input">
+				<input class="input input__email" type="text" name="email" placeholder="E-mail" />
+			</div>
+			<div class="myform__input">
+				<input class="input input__telefone" type="text" name="telefone" placeholder="Telefone" />
+			</div>
+			<div class="myform__input">
+				<textarea class="input input--mensagem" name="mesagem" placeholder="Mensagem"></textarea>
+			</div>
+			<div class="myform__btn">
+				<input class="btn__submit" name="enviar" type="submit" value="enviar" />
+			</div>
+		</form>
+	</div>
+
+	<script src="./js/script.js"></script>
+</body>
+</html>
