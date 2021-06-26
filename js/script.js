@@ -51,3 +51,4 @@ body.addEventListener('click', () => {
 })
 
 
+console.log(window.innerWidth + "\n" + window.innerHeight )
