@@ -5,7 +5,7 @@ This is a simple form made in HTML5 and CSS3 that contains data validation in Ja
 
 ## Preview:
 
-[preview-animation](./images/animation.gif)
+[preview-animation](https://github.com/JailsonPLima/Javascript-Form/blob/main/images/animation.gif)
 
 ## Technologies
 - HTML5
