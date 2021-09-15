@@ -49,6 +49,3 @@ const error = document.querySelector('.myform__error')
 body.addEventListener('click', () => {
 	error.style.display = "none";	
 })
-
-
-console.log(window.innerWidth + "\n" + window.innerHeight )
